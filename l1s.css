@@ -1,26 +1,83 @@
 .teacherregister{
     margin: 10px;
     
-    float: left;
+    
     background-color: aliceblue;
-    padding: 5px;
-    margin-left: 25%;
-    margin-top: 3%;
+    padding: 15px;
+    margin-left: 35%;
+    margin-right: 38%;
+    margin-top: 2%;
     
 }
 
 .teacherlogin{
-    float: right;
+    /*float: right;
+    margin-right: 23%;*/
     margin: 10px;
     
     background-color: aliceblue;
-    padding: 5px;
-    margin-right: 23%;
-    margin-top: 3%;
+    padding: 10px;
     
+    margin-top: 6%;
+    margin-left: 38%;
+    margin-right: 40%;
+    
+}
+.Adminlogin{
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 6%;
+    margin-left: 38%;
+    margin-right: 40%;
+}
+.Adminregister{
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-left: 35%;
+    margin-right: 38%;
+    margin-top: 6%;
+}
+.Institutelogin{
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 6%;
+    margin-left: 38%;
+    margin-right: 40%;
+}
+.Instituteregister{
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-left: 35%;
+    margin-right: 38%;
+    margin-top: 1%;
 }
 
 .upper{
     text-align: center;
     color: blue;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
+
+nav{
+    background-color: aqua ;
+    width: 99%;
+    text-align: center;
+    padding: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav a{
+    color: blue;
+    padding: 7%;
+    
+}
+
+*{
+    margin: 0ch;
+}
+
