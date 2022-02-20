@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher</title>
+    <title>Teacher-Login</title>
     <link rel="stylesheet" href="l1s.css">
     <style>
         .webs{
@@ -15,49 +15,42 @@
         background-color: blanchedalmond;
         font-family: Arial, Helvetica, sans-serif;
         padding-bottom: 1%;
-        
-        
+    }
+    button{
+        background-color: darkcyan;
     }
     </style>
 </head>
 <body>
+    <nav>
+        
+        <a href="homel1.html" target="_blank">Home</a>
+        <a href="#" target="_blank">Login</a>
+        <a href="#" target="_blank">About Us</a>
+        <a href="#" target="_blank">Contact Us</a> 
+    </nav>
     <div class="webs">
         
         <h1>Government Of Maharashtra </h1>
         <h2>Portal for Government Schools and Teachers</h2>
     </div>
-    <div class="teacherregister">
-        <div class="upper">
-            Register <br><br>
-        </div>
-        <div class="below">
-            <form action="#">
-                Name: <input type="text" required><br><br>
-                Mobile NO.: <input type="text" required><br><br>
-                Email-id: <input type="email" name="temail" id="temail"><br><br>
-                Age: <input type="number" name="age" id="age" required><br><br>
-                Set Password: <input type="password" name="tpassword" id="tpassword"><br><br>
-                School Name: <input type="text" required><br><br>
-                Joining Date: <input type="date" name="joindate" id="joindate"><br><br>
-                <input type="checkbox" name="tpermission" id="tpermission">Save Password <br><br>
-                <button type="submit">Save & Register </button>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="reset">Reset</button>
 
-
-            </form>
-
-        </div>
-    </div>
+    
     <div class="teacherlogin">
         <div class="upper">
-            Login <br><br>
+            <b>Login as a Teacher </b><br><br>
         </div>
         <div class="below">
             <form action="#">
                 
-                Mobile NO.: <input type="text" required><br><br>
+                Mobile NO.: <input type="text"><br><br>
                 
                 Password: <input type="password" name="tpassword" id="tpassword"><br><br>
                 <button type="submit">Login</button><br><br>
+                Don't Have an account? 
+                <a href="l1regi.html">Click Here to Register</a> <br><br>
+                Forgot Password?
+                <button id="PasswordReset">Forgot Password</button> <br><br>
                 <input type="checkbox" name="tpermission" id="tpermission">Save Password
 
 
